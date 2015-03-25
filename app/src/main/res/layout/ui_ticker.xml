@@ -15,10 +15,10 @@
         android:id="@+id/textBackground"
         android:layout_alignRight="@+id/horizontalScrollView"
         android:layout_alignBottom="@+id/horizontalScrollView"
-        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/horizontalScrollView"
         android:layout_alignTop="@+id/horizontalScrollView"/>
 
-    <com.nimbletank.sssq.customui.HorizontalListeningScrollView
+    <com.marche.tickerbar.HorizontalListeningScrollView
         android:id="@+id/horizontalScrollView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
             android:paddingBottom="1dp"
             />
 
-    </com.nimbletank.sssq.customui.HorizontalListeningScrollView>
+    </com.marche.tickerbar.HorizontalListeningScrollView>
 
 
 </RelativeLayout>
