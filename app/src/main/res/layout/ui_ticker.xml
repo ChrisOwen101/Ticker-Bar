@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:id="@+id/relativeLayout">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textBackground"
+        android:layout_alignRight="@+id/horizontalScrollView"
+        android:layout_alignBottom="@+id/horizontalScrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/horizontalScrollView"/>
+
+    <com.nimbletank.sssq.customui.HorizontalListeningScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:scrollbars="none">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CONGRATULATIONS YOU HAVE ACHIEVED A NEW RANK"
+            android:textSize="16sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/title"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:paddingTop="1dp"
+            android:ellipsize="none"
+            android:paddingBottom="1dp"
+            />
+
+    </com.nimbletank.sssq.customui.HorizontalListeningScrollView>
+
+
+</RelativeLayout>
