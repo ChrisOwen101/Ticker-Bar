@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TickerBar.iml" filepath="$PROJECT_DIR$/TickerBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ticker-Bar.iml" filepath="$PROJECT_DIR$/Ticker-Bar.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
